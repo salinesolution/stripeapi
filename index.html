@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saline needs money</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src='stripePay.js'></script>
+</head>
+<body>
+    <p>Garlic</p>
+    <img src='https://cdn-prod.medicalnewstoday.com/content/images/articles/265/265853/bulbs-and-bowl-of-garlic.jpg'alt='garlic' width='200'>
+    <div>
+        <label for="garlic">Select quantity:</label>
+        <input type="number" class="quantity" name="garlic" data-sku='sku_FqGUVOFrCfXpSC' min="0" max="100">
+    </div>
+   
+    
+    <p>Vampire</p>
+    <img src='https://cdn5.vectorstock.com/i/1000x1000/87/99/cartoon-vampire-kid-vector-21588799.jpg'alt='vampire' width='200'>
+    <div>
+        <label for="garlic">Select quantity:</label>
+        <input type="number" class="quantity" name="vampire" data-sku='sku_FqHRBs9dj0ZrXJ' min="0" max="100">
+    </div>
+    
+    <div>
+        <button type='button' id=btn>Buy now</button>
+    </div>
+    
+</body>
+</html>
